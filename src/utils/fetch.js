@@ -14,4 +14,5 @@ export const signup = async (username, email, password) => {
 
   const data = await response.json();
   console.log("data in fetch signup", data);
+  return data;
 };

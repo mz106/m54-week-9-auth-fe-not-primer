@@ -5,10 +5,10 @@ import Signup from "../signup/Signup";
 
 import "./LogOrSign.css";
 
-const LogOrSign = () => {
+const LogOrSign = ({ setUser }) => {
   return (
     <div className="logorsign-wrapper">
-      <Signup />
+      <Signup setUser={setUser} />
       <Login />
     </div>
   );
