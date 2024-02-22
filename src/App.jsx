@@ -1,11 +1,15 @@
 import { useState } from "react";
 
+import LogOrSign from "./components/logOrSign/LogOrSign";
+
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div>Hello world</div>
+      <div className="wrapper">
+        <LogOrSign />
+      </div>
     </>
   );
 }
