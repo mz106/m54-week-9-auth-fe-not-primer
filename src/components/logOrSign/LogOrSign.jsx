@@ -9,7 +9,7 @@ const LogOrSign = ({ setUser }) => {
   return (
     <div className="logorsign-wrapper">
       <Signup setUser={setUser} />
-      <Login />
+      <Login setUser={setUser} />
     </div>
   );
 };
